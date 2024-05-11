@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo skipped
+  pre_build:
+    commands:
+      - echo skipped
+  build:
+    commands:
+      - echo skipped
+  post_build:
+    commands:
+      - echo skipped
+artifacts:
+  files:
+    - lambda_function.py
